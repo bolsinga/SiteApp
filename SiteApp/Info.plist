@@ -4,7 +4,7 @@
 <dict>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>gdb.Site.view-archivePath</string>
+		<string>gdb.SiteApp.view-archivePath</string>
 	</array>
 </dict>
 </plist>

@@ -16,6 +16,8 @@ struct SiteAppApp: App {
   var body: some Scene {
     WindowGroup {
       VaultView(model)
+    }.commands {
+      RefreshCommand(model: model)
     }
   }
 }

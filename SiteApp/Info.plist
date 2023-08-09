@@ -5,6 +5,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>gdb.SiteApp.view-archivePath</string>
+		<string>gdb.SiteApp.view-archiveCategory</string>
 	</array>
 </dict>
 </plist>

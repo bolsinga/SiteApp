@@ -10,7 +10,7 @@ import SwiftUI
 
 @main
 struct SiteAppApp: App {
-  @State private var model = VaultModel(urlString: "https://www.bolsinga.com/json/shows.json")
+  @State private var model = SiteModel(urlString: "https://www.bolsinga.com/json/shows.json")
 
   var body: some Scene {
     WindowGroup {

@@ -15,5 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Switch to Xcode 15.0
       run: sudo xcode-select -s "/Applications/Xcode_15.0.app"
-    - name: Build
-      run: xcodebuild -verbose -scheme SiteApp -destination "platform=macOS" -destination "platform=iOS Simulator,name=iPhone 15"
+    - name: Build macos
+      run: xcodebuild -verbose -scheme SiteApp -destination "platform=macOS"
+    - name: Build ios
+      run: xcodebuild -verbose -scheme SiteApp -destination "platform=iOS Simulator,name=iPhone 15"

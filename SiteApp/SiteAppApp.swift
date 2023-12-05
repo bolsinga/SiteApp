@@ -15,8 +15,11 @@ struct SiteAppApp: App {
   var body: some Scene {
     WindowGroup {
       SiteView(model)
-    }.commands {
-      RefreshCommand(model: model)
     }
+    #if !os(tvOS)
+      .commands {
+        RefreshCommand(model: model)
+      }
+    #endif
   }
 }

@@ -18,7 +18,7 @@ struct SiteAppApp: App {
     }
     #if !os(tvOS)
       .commands {
-        RefreshCommand(model: model)
+        RefreshCommand { await model.load() }
       }
     #endif
   }

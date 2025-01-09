@@ -390,8 +390,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bolsinga/site";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 1.0.9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

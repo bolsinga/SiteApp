@@ -395,7 +395,7 @@
 			repositoryURL = "https://github.com/bolsinga/site";
 			requirement = {
 				kind = exactVersion;
-				version = 1.0.9;
+				version = 1.0.10;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

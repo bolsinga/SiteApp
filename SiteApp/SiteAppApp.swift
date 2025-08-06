@@ -21,5 +21,8 @@ struct SiteAppApp: App {
         RefreshCommand { await model.load() }
       }
     #endif
+    #if os(macOS)
+      Settings { SettingsView() }
+    #endif
   }
 }
